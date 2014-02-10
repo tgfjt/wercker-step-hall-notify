@@ -1,5 +1,5 @@
 name: hall-notify
-version: 0.1.2
+version: 0.1.3
 description: send http request to specified Hall(.com)
 keywords:
   - notification
