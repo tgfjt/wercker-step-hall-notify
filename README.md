@@ -6,8 +6,8 @@ POST request to Hall(.com)
 
 ```
   after-steps:
-      - tgfjt/wercker-step-hall-notify@0.0.3:
-          url: YOUR_HALL_URL
+      - tgfjt/hall-notify@0.0.4:
+          room_token: HALL_ROOM_API_TOKEN
 ```
 
 ## License:
