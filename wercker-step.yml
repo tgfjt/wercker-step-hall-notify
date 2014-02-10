@@ -1,8 +1,7 @@
 name: hall-notify
-version: 0.0.2
+version: 0.0.3
 description: send http request to specified Hall(.com)
 keywords:
-  - web hook
   - notification
   - hall
 properties:
