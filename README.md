@@ -6,7 +6,7 @@ POST request to Hall(.com)
 
 ```
   after-steps:
-      - tgfjt/hall-notify@0.1.3:
+      - tgfjt/hall-notify@0.1.4:
           room_token: HALL_ROOM_API_TOKEN
 ```
 
