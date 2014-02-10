@@ -11,7 +11,7 @@ else
 fi
 
 if [ ! -n "$WERCKER_IDOBATA_NOTIFY_ICON" ]; then
-  WERCKER_IDOBATA_NOTIFY_ICON="https://raw2.github.com/tgfjt/wercker-step-hall-notify/master/icon/icon96"
+  WERCKER_IDOBATA_NOTIFY_ICON="https://raw2.github.com/tgfjt/wercker-step-hall-notify/master/icon/icon96.png"
 fi
 
 echo ACTION:$ACTION
