@@ -10,12 +10,14 @@ else
   ACTION_URL=$WERCKER_BUILD_URL
 fi
 
+if [ ! -n "$WERCKER_IDOBATA_NOTIFY_ICON" ]; then
+  WERCKER_IDOBATA_NOTIFY_ICON="https://raw2.github.com/tgfjt/wercker-step-hall-notify/master/icon/icon96"
+fi
+
 echo ACTION:$ACTION
 echo ACTION_ID:$ACTION_ID
 echo ACTION_URL:$ACTION_URL
 
-echo $WERCKER_HALL_NOTIFY_TOKEN
-
 curl -X POST \
      -H "Content-Type: application/json" \
-     -d '{"title": "'${WERCKER_APPLICATION_NAME}'", "message": "Build:<a href=\"'${ACTION_URL}'\">'${ACTION_URL}'</a> <strong>'${WERCKER_RESULT}'</strong>"}' https://hall.com/api/1/services/generic/$WERCKER_HALL_NOTIFY_TOKEN
+     -d '{"title": "'${WERCKER_APPLICATION_NAME}'", "message": "Build <strong>'${WERCKER_RESULT}'</strong> on <a href=\"'${ACTION_URL}'\">wercker</a>", "picture": "'$WERCKER_IDOBATA_NOTIFY_ICON'"}' https://hall.com/api/1/services/generic/$WERCKER_HALL_NOTIFY_TOKEN

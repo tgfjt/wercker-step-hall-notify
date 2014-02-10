@@ -1,5 +1,5 @@
 name: hall-notify
-version: 0.1.5
+version: 0.1.6
 description: send http request to specified Hall(.com)
 keywords:
   - notification
@@ -8,3 +8,5 @@ properties:
   token:
     type: string
     required: true
+  icon:
+    type: string

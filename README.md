@@ -6,8 +6,9 @@ POST request to Hall(.com)
 
 ```
   after-steps:
-      - tgfjt/hall-notify@0.1.5:
-          room_token: HALL_ROOM_API_TOKEN
+      - tgfjt/hall-notify@0.1.6:
+          token: HALL_ROOM_API_TOKEN
+          icon: YOUR_ICON_URL
 ```
 
 ## License:
