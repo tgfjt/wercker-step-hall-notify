@@ -6,7 +6,7 @@ POST request to Hall(.com)
 
 ```
   after-steps:
-      - tgfjt/wercker-step-hall-notify@0.0.5:
+      - tgfjt/wercker-step-hall-notify@0.1.0:
           url: YOUR_HALL_URL
 ```
 
