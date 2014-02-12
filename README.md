@@ -2,6 +2,8 @@
 
 POST request to Hall(.com)
 
+[![wercker status](https://app.wercker.com/status/5b215d5a4663c5b3969c0017b0a76fe0/s/ "wercker status")](https://app.wercker.com/project/bykey/5b215d5a4663c5b3969c0017b0a76fe0)
+
 ## Example:
 
 ```
