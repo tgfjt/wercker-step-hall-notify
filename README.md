@@ -18,3 +18,7 @@ POST request to Hall(.com)
 
 ## License:
 MIT
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tgfjt/wercker-step-hall-notify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
