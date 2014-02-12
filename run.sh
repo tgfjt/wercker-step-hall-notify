@@ -17,6 +17,7 @@ fi
 echo ACTION:$ACTION
 echo ACTION_ID:$ACTION_ID
 echo ACTION_URL:$ACTION_URL
+echo ICON_URL:$WERCKER_IDOBATA_NOTIFY_ICON
 
 curl -X POST \
      -H "Content-Type: application/json" \
