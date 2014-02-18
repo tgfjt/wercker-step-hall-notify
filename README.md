@@ -8,7 +8,7 @@ POST request to Hall(.com)
 
 ```
   after-steps:
-      - tgfjt/hall-notify@0.1.9:
+      - tgfjt/hall-notify@0.2.0:
           token: $HALL_ROOM_API_TOKEN
           icon: $YOUR_ICON_URL
 ```
@@ -16,7 +16,7 @@ POST request to Hall(.com)
 ## Options:
 
 * `token`: HALL_ROOM_API_TOKEN **required**
-* `icon`: YOUR_ICON_URL(on Hall Chat)
+* `icon`: ICON_URL_TO_HALL(on Hall Chat)
 
 ## License:
 MIT
