@@ -21,4 +21,4 @@ echo ICON_URL:$WERCKER_IDOBATA_NOTIFY_ICON
 
 curl -X POST \
      -H "Content-Type: application/json" \
-     -d '{"title": "'${WERCKER_APPLICATION_NAME}'", "message": "Build <strong>'${WERCKER_RESULT}'</strong> on <a href=\"'${ACTION_URL}'\">wercker</a>", "picture": "'$WERCKER_IDOBATA_NOTIFY_ICON'"}' https://hall.com/api/1/services/generic/$WERCKER_HALL_NOTIFY_TOKEN
+     -d '{"title": "'${WERCKER_APPLICATION_NAME}'", "message": "'${ACTION}' <strong>'${WERCKER_RESULT}'</strong> on <a href=\"'${ACTION_URL}'\">wercker</a>", "picture": "'$WERCKER_IDOBATA_NOTIFY_ICON'"}' https://hall.com/api/1/services/generic/$WERCKER_HALL_NOTIFY_TOKEN
