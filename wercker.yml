@@ -2,3 +2,7 @@ box: wercker/default
 build:
   steps:
     - validate-wercker-step
+
+  after-steps:
+      - tgfjt/hall-notify@0.2.0:
+          token: $WERCKER_HALL_NOTIFY_TOKEN
