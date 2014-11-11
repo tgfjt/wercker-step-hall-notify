@@ -23,8 +23,3 @@ MIT
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tgfjt/wercker-step-hall-notify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tgfjt/wercker-step-hall-notify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
